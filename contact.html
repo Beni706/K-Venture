@@ -17,7 +17,7 @@
       <div class="header-content">
         <div class="logo">
           <a href="index.html">
-            <h1>K-Venture</h1>
+            <img class= "logo-entete" src="../photo/logo.png" alt="K-Venture">
           </a>
         </div>
         <nav>
@@ -57,7 +57,9 @@
             <p>Remplissez le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais.</p>
             
             <form id="contact-form" class="contact-form" name="contact" method="POST" data-netlify="true">
+              <!--Pour améliorer la détection du formulaire par Netlify-->
               <input type="hidden" name="form-name" value="contact">
+              
               <div class="form-group">
                 <label for="name">Nom complet*</label>
                 <input type="text" id="name" name="name" required>
