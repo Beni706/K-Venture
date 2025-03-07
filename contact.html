@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | K-Venture</title>
+  <meta name="description" content="Contactez K-Venture pour vos besoins en coaching transformationnel, formations et accompagnement.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <a href="index.html">
+            <h1>K-Venture</h1>
+          </a>
+        </div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="about.html">À Propos</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+          </ul>
+          <div class="mobile-menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <h1>Contact</h1>
+        <p>Nous sommes à votre écoute pour répondre à vos questions et besoins</p>
+      </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="contact-content">
+      <div class="container">
+        <div class="contact-grid">
+          <!-- Contact Form -->
+          <div class="contact-form-container">
+            <h2>Envoyez-nous un message</h2>
+            <p>Remplissez le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais.</p>
+            
+            <form id="contact-form" class="contact-form" name="contact" method="POST" data-netlify="true">
+              <input type="hidden" name="form-name" value="contact">
+              <div class="form-group">
+                <label for="name">Nom complet*</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="email">Email*</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="phone">Téléphone</label>
+                <input type="tel" id="phone" name="phone">
+              </div>
+              
+              <div class="form-group">
+                <label for="company">Entreprise/Organisation</label>
+                <input type="text" id="company" name="company">
+              </div>
+              
+              <div class="form-group">
+                <label for="subject">Sujet*</label>
+                <select id="subject" name="subject" required>
+                  <option value="">Sélectionnez un sujet</option>
+                  <option value="coaching-individuel">Coaching Individuel</option>
+                  <option value="coaching-collectif">Coaching Collectif</option>
+                  <option value="formations">Formations</option>
+                  <option value="ateliers">Ateliers</option>
+                  <option value="consulting">Consulting</option>
+                  <option value="autre">Autre</option>
+                </select>
+              </div>
+              
+              <div class="form-group">
+                <label for="message">Message*</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+              
+              <div class="form-consent">
+                <input type="checkbox" id="consent" name="consent" required>
+                <label for="consent">J'accepte que mes données soient utilisées pour me recontacter</label>
+              </div>
+              
+              <button type="submit" class="btn btn-primary">Envoyer</button>
+            </form>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="contact-info">
+            <h2>Informations de contact</h2>
+            
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="info-content">
+                <h3>Email</h3>
+                <p><a href="mailto:contact@k-venture.com">contact@k-venture.com</a></p>
+              </div>
+            </div>
+            
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="info-content">
+                <h3>Téléphone</h3>
+                <p><a href="tel:+123456789">+123 456 789</a></p>
+              </div>
+            </div>
+            
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="info-content">
+                <h3>Adresse</h3>
+                <address>Libreville, Gabon</address>
+              </div>
+            </div>
+            
+            <div class="social-links">
+              <h3>Suivez-nous</h3>
+              <div class="social-icons">
+                <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+            
+            <div class="contact-cta">
+              <h3>Consultation gratuite</h3>
+              <p>Réservez une consultation gratuite de 30 minutes pour discuter de vos besoins et objectifs.</p>
+              <a href="#" class="btn btn-secondary">Réserver maintenant</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+      <div class="container">
+        <h2 class="section-title">Nous trouver</h2>
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127504.85340007513!2d9.3857868!3d0.3915368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x107f3b91d765e5cf%3A0xf5f3a56448d403d6!2sLibreville%2C%20Gabon!5e0!3m2!1sfr!2sfr!4v1623345678901!5m2!1sfr!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+      <div class="container">
+        <h2 class="section-title">Questions fréquentes</h2>
+        <div class="faq-container">
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Comment se déroule une séance de coaching individuel ?</h3>
+              <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+            </div>
+            <div class="faq-answer">
+              <p>Une séance de coaching individuel dure généralement entre 60 et 90 minutes. Lors de la première séance, nous établissons ensemble vos objectifs et élaborons un plan d'action personnalisé. Les séances suivantes sont consacrées à la mise en œuvre de ce plan, avec des exercices pratiques et des réflexions guidées.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Quelle est la durée d'un programme de coaching ?</h3>
+              <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+            </div>
+            <div class="faq-answer">
+              <p>La durée d'un programme de coaching varie en fonction de vos objectifs et besoins spécifiques. En général, un programme complet s'étend sur 3 à 6 mois, avec des séances hebdomadaires ou bimensuelles. Nous proposons également des formules plus courtes ou plus longues selon vos besoins.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Les formations peuvent-elles être personnalisées pour notre entreprise ?</h3>
+              <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+            </div>
+            <div class="faq-answer">
+              <p>Absolument ! Toutes nos formations peuvent être adaptées aux besoins spécifiques de votre organisation. Nous commençons par une analyse approfondie de vos besoins et objectifs, puis nous concevons un programme sur mesure qui répond précisément à vos attentes.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Proposez-vous des services à distance ?</h3>
+              <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+            </div>
+            <div class="faq-answer">
+              <p>Oui, nous proposons des services de coaching et de formation à distance via des plateformes de visioconférence. Cette option offre une grande flexibilité et permet de bénéficier de nos services quel que soit votre emplacement géographique.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Comment mesurer les résultats du coaching ?</h3>
+              <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+            </div>
+            <div class="faq-answer">
+              <p>Nous mettons en place des indicateurs de performance clés (KPI) dès le début du programme, en fonction de vos objectifs. Ces indicateurs peuvent être quantitatifs (chiffres, résultats) ou qualitatifs (satisfaction, bien-être). Nous effectuons des évaluations régulières pour mesurer les progrès et ajuster le programme si nécessaire.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-content">
+          <h2>Prêt à transformer votre potentiel?</h2>
+          <p>Contactez-nous dès aujourd'hui pour discuter de vos besoins et découvrir comment nos services peuvent vous aider à atteindre vos objectifs.</p>
+          <a href="#contact-form" class="btn btn-primary">Contactez-nous</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h2>K-Venture</h2>
+          <p>Transformez votre potentiel en performance</p>
+        </div>
+        <div class="footer-links">
+          <h3>Liens rapides</h3>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="about.html">À Propos</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-services">
+          <h3>Nos services</h3>
+          <ul>
+            <li><a href="services.html#individual">Coaching Individuel</a></li>
+            <li><a href="services.html#collective">Coaching Collectif</a></li>
+            <li><a href="services.html#training">Formations</a></li>
+            <li><a href="services.html#workshops">Ateliers</a></li>
+            <li><a href="services.html#consulting">Consulting</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h3>Contact</h3>
+          <ul>
+            <li><i class="fas fa-envelope"></i> <a href="mailto:contact@k-venture.com">contact@k-venture.com</a></li>
+            <li><i class="fas fa-phone"></i> <a href="tel:+123456789">+123 456 789</a></li>
+            <li><i class="fas fa-map-marker-alt"></i> <address>Libreville, Gabon</address></li>
+          </ul>
+          <div class="social-links">
+            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2023 K-Venture. Tous droits réservés.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
